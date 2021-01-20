@@ -1,0 +1,236 @@
+/* Navigation */
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4A419A;
+    height: 64px;
+    padding: 24px 40px 24px 40px;
+}
+
+#navBar img {
+    position: absolute;
+    left: 36px;
+    width: 156px;
+}
+
+#navigation {
+    display: flex;
+    cursor: pointer;
+}
+
+#navigation p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+
+#click {
+    display: flex;
+    align-items: center;
+    right: 72px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#letsChat {
+    border: 2px solid white;
+    border-radius: 8px;
+    height: 48px;
+    width: 136px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#letsChat p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+#letsChat:hover {
+    background-color: white;
+}
+
+#letsChat:hover p {
+    color: #4A419A;
+}
+
+/* Case Studies Header*/
+
+.content {
+    text-align: center;
+}
+
+#header {
+    font-family: Montserrat;
+    font-size: 48px;
+    color: #46454C;
+}
+
+#body {
+    font-family: Raleway;
+    font-size: 24px;
+    color: #46454C;
+}
+
+/* About Me */
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+}
+
+#headShot {
+    height: 806px;
+}
+
+.introText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 88px;
+}
+
+.introText h1 {
+    font-family: Montserrat;
+    color: #46454C;
+    font-size: 48px;
+}
+
+.introText h2 {
+    font-family: Montserrat;
+    color: #46454C;
+    font-size: 32px;
+}
+
+.introText p {
+    font-family: Raleway;
+    color: #46454C;
+    font-size: 24px;
+}
+
+strong {
+    color: #A59BCC;
+}
+
+/* Passion */
+
+#passions {
+    background-color: #E8E9F4;
+    height: 816px;
+    justify-content: center;
+}
+
+#passions h1{
+    font-family: Montserrat;
+    color: #46454C;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 56px;
+    padding-bottom: 16px;
+}
+
+#professional {
+    display: flex;
+    justify-content: center;
+}
+
+#personal {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.likes {
+    text-align: center;
+    width: 168px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-top: 8px;
+}
+
+#sectionHead {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Montserrat;
+    color: #46454C;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#vertical {
+   writing-mode: vertical-lr;
+   border: 2px solid #46454C;
+   padding: 16px;
+   height: 232px;
+   display: flex;
+   justify-content: center;
+}
+
+.likes h3 {
+    font-family: Montserrat;
+    color: #46454C;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Connect */
+
+#connect {
+    background-color: white;
+}
+
+#chat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 144px;
+}
+
+#chat h1 {
+    font-family: Montserrat;
+    color: #46454C;
+    font-size: 32px; 
+    font-weight: 500;
+}
+
+#button {
+    border: solid 2px #4A419A;
+    border-radius: 8px;
+    height: 64px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#button p {
+    font-family: Montserrat;
+    font-size: 24px;
+    color: #4A419A;
+    text-align: center;
+}
+
+#button:hover {
+    background-color: #4A419A;
+}
+
+#button:hover p {
+    color: white;
+}
