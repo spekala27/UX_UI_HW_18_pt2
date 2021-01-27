@@ -128,22 +128,16 @@ strong {
 
 /* Passion */
 
-#passions {
-    background-color: #E8E9F4;
-    height: 816px;
-    justify-content: center;
-}
-
 #passions h1{
     font-family: Montserrat;
     color: #46454C;
     font-size: 48px;
     text-align: center;
     font-weight: 500;
-    padding-top: 56px;
     padding-bottom: 16px;
 }
 
+/*
 #professional {
     display: flex;
     justify-content: center;
@@ -154,7 +148,7 @@ strong {
     justify-content: center;
     margin-top: 36px;
 }
-
+*/
 .likes {
     text-align: center;
     width: 168px;
@@ -163,6 +157,7 @@ strong {
     padding-top: 8px;
 }
 
+/*
 #sectionHead {
     display: flex;
     justify-content: flex-end;
@@ -180,6 +175,7 @@ strong {
    display: flex;
    justify-content: center;
 }
+*/
 
 .likes h3 {
     font-family: Montserrat;
@@ -234,3 +230,68 @@ strong {
 #button:hover p {
     color: white;
 }
+
+/* Carousel */
+
+#passions {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 480px;
+    background-color: #E8E9F4;
+  }
+
+#wrapper {
+    width: 100%;
+    max-width: 1390px;
+    position: relative;
+    align-content: center;
+  }
+  
+  #carousel {
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  
+  #carousel::-webkit-scrollbar {
+    height: 0;
+  }
+  
+  #prev,
+  #next {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background:rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  #prev {
+    top: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    display: none;
+  }
+  
+  #next {
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  #content {
+    display: grid;
+    grid-gap: 16px;
+    grid-auto-flow: column;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
